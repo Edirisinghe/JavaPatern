@@ -10,7 +10,8 @@ public class Test {
 
 		System.out.println(Singleton.getInstance().getClass().hashCode());
 
-		System.out.println(Singleton.getInstance().getClass().hashCode());
+		System.out.println(new Singleton().getClass().hashCode());
 	}
-
+	
 }
+
